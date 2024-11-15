@@ -1,0 +1,59 @@
+/* Importar Normalize CSS */
+@import 'normalize.css';
+
+/* Importar Inter com os pesos desejados */
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/inter/800.css';
+@import '@fontsource/inter/900.css';
+
+/* Reset básico */
+html {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #000;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Garantir que todos os elementos utilizem box-sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Configurações adicionais */
+img, picture, video, canvas {
+  display: block;
+  max-width: 100%;
+}
+
+ul[role='list'], ol[role='list'] {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
